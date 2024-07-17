@@ -1,0 +1,23 @@
+{
+  "name": "command_line_interface_ts_calculator",
+  "version": "1.1.1",
+  "main": "index.js",
+  "type": "module",
+  "bin": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Areesha Kamran",
+  "license": "ISC",
+  "description": "A lightweight Command Line Interface (CLI) calculator for basic arithmetic operations. Perfect for quick calculations directly from your terminal.",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "chalk-animation": "^2.0.3",
+    "inquirer": "^9.2.23"
+  },
+  "devDependencies": {
+    "@types/chalk-animation": "^1.6.3",
+    "@types/inquirer": "^9.0.7"
+  }
+}
